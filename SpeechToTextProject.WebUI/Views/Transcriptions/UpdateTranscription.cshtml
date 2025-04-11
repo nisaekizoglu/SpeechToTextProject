@@ -1,0 +1,24 @@
+﻿@model SpeechToTextProject.WebUI.Dtos.UpdateTranscriptionDto
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+    <div class="container">
+        <br /><br />
+        <input type="hidden" asp-for="TranscriptionId"/>
+        <label>Metin</label>
+        <input type="text" asp-for="Text" class="form-control" />
+        <br />
+        <label>Oluşturma Zamanı</label>
+        <input type="text" asp-for="CreaedAt" class="form-control" />
+        <br />
+        <label>Dil</label>
+        <input type="text" asp-for="Language" class="form-control" />
+        <br />
+        <button class="btn btn-primary">Güncelle</button>
+    </div>
+</form>
+

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToTextProject.EntityLayer", "SpeechToTextProject.EntityLayer\SpeechToTextProject.EntityLayer.csproj", "{3F594304-8389-4CBE-BC5C-574574DD7CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToTextProject.DataAccessLayer", "SpeechToTextProject.DataAccessLayer\SpeechToTextProject.DataAccessLayer.csproj", "{E05F9B80-0039-48B2-A93D-D56C1A9BC4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToTextProject.BusinessLayer", "SpeechToTextProject.BusinessLayer\SpeechToTextProject.BusinessLayer.csproj", "{5D6C7FDA-A3E3-4198-965A-C2071F77C9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToTextProject.WebApi", "SpeechToTextProject.WebApi\SpeechToTextProject.WebApi.csproj", "{DD9A1C5A-0739-4B55-B4A0-49CEE209E630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToTextProject.WebUI", "SpeechToTextProject.WebUI\SpeechToTextProject.WebUI.csproj", "{4C7A974E-69C7-49BB-97C8-11717EB5DA9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F594304-8389-4CBE-BC5C-574574DD7CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F594304-8389-4CBE-BC5C-574574DD7CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F594304-8389-4CBE-BC5C-574574DD7CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F594304-8389-4CBE-BC5C-574574DD7CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05F9B80-0039-48B2-A93D-D56C1A9BC4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05F9B80-0039-48B2-A93D-D56C1A9BC4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05F9B80-0039-48B2-A93D-D56C1A9BC4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05F9B80-0039-48B2-A93D-D56C1A9BC4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6C7FDA-A3E3-4198-965A-C2071F77C9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6C7FDA-A3E3-4198-965A-C2071F77C9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6C7FDA-A3E3-4198-965A-C2071F77C9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6C7FDA-A3E3-4198-965A-C2071F77C9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9A1C5A-0739-4B55-B4A0-49CEE209E630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9A1C5A-0739-4B55-B4A0-49CEE209E630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9A1C5A-0739-4B55-B4A0-49CEE209E630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9A1C5A-0739-4B55-B4A0-49CEE209E630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7A974E-69C7-49BB-97C8-11717EB5DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7A974E-69C7-49BB-97C8-11717EB5DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7A974E-69C7-49BB-97C8-11717EB5DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7A974E-69C7-49BB-97C8-11717EB5DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

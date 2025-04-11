@@ -1,0 +1,38 @@
+﻿@model List<SpeechToTextProject.WebUI.Dtos.ResultTranscriptionDto>
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<h2 class="text-center my-4">Transkriptler Listesi</h2>
+
+<form method="post">
+	<div class="container">
+		<table class="table table-hover table-striped text-center align-middle shadow-sm rounded">
+			<thead class="table-dark">
+				<tr>
+					<th>Metin</th>
+					<th>Oluşturma Tarihi</th>
+					<th>Dil</th>
+					<th>Transkript Görüntüle</th>
+					<th>Sil</th>
+					<th>Güncelle</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.Text</td>
+						<td>@item.CreaedAt</td>
+						<td>@item.Language</td>
+						<td><a href="/Transcriptions/Details/@item.TranscriptionId" class="btn btn-primary">Transkript Görüntüle</a></td>
+						<td><a href="/Transcriptions/DeleteTranscription/@item.TranscriptionId" class="btn btn-danger">Sil</a></td>
+						<td><a href="/Transcriptions/UpdateTranscription/@item.TranscriptionId" class="btn btn-success">Güncelle</a></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<a href="/Transcriptions/CreateTranscription" class="btn btn-info">Yeni Transkript Ekleme</a>
+	</div>
+</form>
