@@ -22,6 +22,8 @@
 
 **🔺N Tier Architecture**
 
+**🔺Bootstrap ile sade UI tasarımı**
+
 **🔺Repository Design Pattern**
 
 **🔺Identity**
